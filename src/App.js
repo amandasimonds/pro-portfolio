@@ -3,6 +3,7 @@ import './App.css';
 import { Layout, Navigation, Content, Drawer, Header } from "react-mdl";
 import Main from "./components/main"
 import {Link} from "react-router-dom";
+import LandingPage from "./components/LandingPage"
 
 function App() {
   return (
@@ -10,7 +11,6 @@ function App() {
       <Layout>
           <Header className="header-color" title="Amanda Simonds" scroll>
               <Navigation>
-                  <Link to="landingpage">Landing</Link>
                   <Link to="/resume">Resume</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
@@ -27,7 +27,7 @@ function App() {
           </Drawer>
           <Content>
               <div className="page-content" />
-              <Main/>
+              <LandingPage/>
           </Content>
       </Layout>
   </div>
