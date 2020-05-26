@@ -10,6 +10,7 @@ function App() {
       <Layout>
           <Header className="header-color" title="Amanda Simonds" scroll>
               <Navigation>
+                  <Link to="landingpage">Landing</Link>
                   <Link to="/resume">Resume</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
