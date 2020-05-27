@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/pro-portfolio/static/css/main.83dc97b3.chunk.css",
-    "main.js": "/pro-portfolio/static/js/main.dbbd8df6.chunk.js",
-    "main.js.map": "/pro-portfolio/static/js/main.dbbd8df6.chunk.js.map",
+    "main.js": "/pro-portfolio/static/js/main.3ef2b3a0.chunk.js",
+    "main.js.map": "/pro-portfolio/static/js/main.3ef2b3a0.chunk.js.map",
     "runtime-main.js": "/pro-portfolio/static/js/runtime-main.e6710621.js",
     "runtime-main.js.map": "/pro-portfolio/static/js/runtime-main.e6710621.js.map",
     "static/css/2.e4346227.chunk.css": "/pro-portfolio/static/css/2.e4346227.chunk.css",
-    "static/js/2.71bcfe8c.chunk.js": "/pro-portfolio/static/js/2.71bcfe8c.chunk.js",
-    "static/js/2.71bcfe8c.chunk.js.map": "/pro-portfolio/static/js/2.71bcfe8c.chunk.js.map",
+    "static/js/2.2e30703c.chunk.js": "/pro-portfolio/static/js/2.2e30703c.chunk.js",
+    "static/js/2.2e30703c.chunk.js.map": "/pro-portfolio/static/js/2.2e30703c.chunk.js.map",
     "index.html": "/pro-portfolio/index.html",
-    "precache-manifest.d26535476f269dfd9deac8a68cae5641.js": "/pro-portfolio/precache-manifest.d26535476f269dfd9deac8a68cae5641.js",
+    "precache-manifest.ab54cf73ee2636ce1dfd67f53d4c2981.js": "/pro-portfolio/precache-manifest.ab54cf73ee2636ce1dfd67f53d4c2981.js",
     "service-worker.js": "/pro-portfolio/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/pro-portfolio/static/css/2.e4346227.chunk.css.map",
     "static/css/main.83dc97b3.chunk.css.map": "/pro-portfolio/static/css/main.83dc97b3.chunk.css.map",
-    "static/js/2.71bcfe8c.chunk.js.LICENSE.txt": "/pro-portfolio/static/js/2.71bcfe8c.chunk.js.LICENSE.txt",
+    "static/js/2.2e30703c.chunk.js.LICENSE.txt": "/pro-portfolio/static/js/2.2e30703c.chunk.js.LICENSE.txt",
     "static/media/StreamEd.JPG": "/pro-portfolio/static/media/StreamEd.e5800fac.JPG",
     "static/media/burgerlogger.JPG": "/pro-portfolio/static/media/burgerlogger.6966f81d.JPG",
     "static/media/hoptoit.JPG": "/pro-portfolio/static/media/hoptoit.afd705c5.JPG",
@@ -26,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.e6710621.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.71bcfe8c.chunk.js",
+    "static/js/2.2e30703c.chunk.js",
     "static/css/main.83dc97b3.chunk.css",
-    "static/js/main.dbbd8df6.chunk.js"
+    "static/js/main.3ef2b3a0.chunk.js"
   ]
 }
