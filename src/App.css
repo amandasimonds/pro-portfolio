@@ -1,3 +1,9 @@
+body {
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 .header-color {
   background: #36D1DC;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
@@ -71,11 +77,49 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
   display: flex;
   justify-content: space-between;
   padding:10px;
-  margin: 0 300px 0 300px;
+  margin: 0 200px 0 200px;
 }
 
-.project-title{
+h3{
   font-weight: bold;
   color:black;
-  font-size:1.2rem;
+  font-size:.3rem;
 }
+
+.project-links{
+  text-align: center;
+  padding:5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-links i{
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding:5px;
+}
+
+.project-links a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding:5px;
+}
+
+.project-links a:hover {
+  color: #5B86E5;
+}
+
+.project-links i:hover {
+  color: #5B86E5;
+}
+
+.category-tabs {
+  background-color:rgba(255, 255, 255, 0.336);
+}
+
