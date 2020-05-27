@@ -66,3 +66,16 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
   font-size: 4em;
   padding: 8px;
 }
+
+.projects-grid {
+  display: flex;
+  justify-content: space-between;
+  padding:10px;
+  margin: 0 300px 0 300px;
+}
+
+.project-title{
+  font-weight: bold;
+  color:black;
+  font-size:1.2rem;
+}

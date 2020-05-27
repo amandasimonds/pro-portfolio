@@ -3,7 +3,7 @@ import './App.css';
 import { Layout, Navigation, Content, Drawer, Header } from "react-mdl";
 import Main from "./components/main"
 import {Link} from "react-router-dom";
-import LandingPage from "./components/LandingPage"
+// import LandingPage from "./components/LandingPage"
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
           </Drawer>
           <Content>
               <div className="page-content" />
-              <LandingPage/>
+              <Main/>
           </Content>
       </Layout>
   </div>
