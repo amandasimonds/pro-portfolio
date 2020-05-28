@@ -14,6 +14,7 @@ class LandingPage extends Component {
                         alt="myPic"
                         />
                         <div className="banner-text">
+                            <h1>Amanda Simonds</h1>
                             <h1>Full Stack Web Developer</h1>
 
                             <hr/>

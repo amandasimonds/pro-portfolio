@@ -41,7 +41,9 @@ class Projects extends Component {
                             <a href="https://amandasimonds.github.io/stream-ed/" rel="noopener noreferrer" target="_blank"><strong>StreamEd</strong></a>  
                             <a href="https://github.com/amandasimonds/stream-ed" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
                             </div>
-                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}></CardText>
+                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}>
+                                React App designed for online teaching and learning, streamlining all classes, assignments, and live streams into one easy-to-use app. This app is in development.
+                            </CardText>
                     </Card>
                 </div>
             )
@@ -56,7 +58,9 @@ class Projects extends Component {
                             <a href="https://notetaker-amazing.herokuapp.com/" rel="noopener noreferrer" target="_blank"><strong>NoteTaker</strong></a>  
                             <a href="https://github.com/amandasimonds/note-taker" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
                             </div>
-                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}></CardText>
+                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}>
+                                Express Application, nicely designed for the user to create, save, and delete notes.
+                            </CardText>
                     </Card>
 
                     {/* // SpacePort */}
@@ -67,7 +71,9 @@ class Projects extends Component {
                             <a href="https://spaceport2020.herokuapp.com/" rel="noopener noreferrer" target="_blank"><strong>SpacePort</strong></a>  
                             <a href="https://github.com/hdcarr87/project-2" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
                             </div>
-                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}></CardText>
+                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}>
+                                Express app, using third party API's to generate lists of books and movies about space for the user. MySQL is used to save login information and favorites. This app is in development.
+                            </CardText>
                     </Card>
                 </div>
             )
@@ -82,7 +88,9 @@ class Projects extends Component {
                             <a href="https://amandasimonds.github.io/WeatherDashboard/" rel="noopener noreferrer" target="_blank"><strong>Weather Dashboard</strong></a>  
                             <a href="https://github.com/amandasimonds/WeatherDashboard" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
                             </div>
-                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}></CardText>
+                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}>
+                                JavaScript program showcasing the use of a weather API to display current and 5 day weather for any city in the world.
+                            </CardText>
                     </Card>
 
                     {/* // Hop To It */}
@@ -93,7 +101,9 @@ class Projects extends Component {
                             <a href="https://kellyjones-jpg.github.io/Hop-To-It/" rel="noopener noreferrer" target="_blank"><strong>Hop To It</strong></a>  
                             <a href="https://github.com/kellyjones-jpg/Hop-To-It" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
                             </div>
-                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}></CardText>
+                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}>
+                                Designed for a city-visitor, this app use 3 API's including Google Geocoding to provide users a list of breweries based on the location they enter. The user can also browse marijuana strains.
+                            </CardText>
                     </Card>
                 </div>
             )
@@ -108,7 +118,9 @@ class Projects extends Component {
                             <a href="https://supertastyburgerapp.herokuapp.com/" rel="noopener noreferrer" target="_blank"><strong>Burger Logger</strong></a>  
                             <a href="https://github.com/amandasimonds/burger-logger" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
                             </div>
-                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}></CardText>
+                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}>
+                                Express app built with Handlebars and MySQL designed to simulate burger take out.
+                            </CardText>
                     </Card>
 
                     {/* OceanPort */}
@@ -118,7 +130,9 @@ class Projects extends Component {
                             <a href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank"><strong>OceanPort</strong></a>  
                             <a href="https://github.com/amandasimonds/ocean-port" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
                             </div>
-                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}></CardText>
+                            <CardText style={{height: "100px", paddingBottom: "20px", paddingTop:"0"}}>
+                            React Express app built to engage users in learning through reading, taking quizzes, and earning badges. User authentication by Passport NPM, Data managed by MySQL. 
+                            </CardText>
                     </Card>
                 </div>
             )
