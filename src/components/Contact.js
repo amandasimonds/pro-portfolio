@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import {Form, FormGroup, Label, Input, Button} from "reactstrap"
+import emailjs from "emailjs-com"
 
 class Contact extends Component {
     constructor(props) {
@@ -10,6 +11,28 @@ class Contact extends Component {
             message:""
         }
     }
+    
+    handleSubmit(event){
+        event.preventDefault();
+        console.log("[contact form]", this.state);
+        const templateId="template_gbEDgVsU";
+        this.sendEmail(templateId, {reply_to: this.state.email, from_name: this.state.email, to_name: "amandasimonds@gmail.com", message_html: this.state.message,  })
+        }
+
+    sendEmail(templateId, variables) {
+        emailjs.send("user_VMZ2FtiGOwo9dnLIX7VOa", templateId, variables)
+        .then(res => {
+            console.log("Message sent")
+            alert("Message sent")
+        })
+        .catch(err => {
+            console.error("Message did not send", err)
+            alert("Sorry, the contact form is still in development. Please email me directly or through LinkedIn. Thanks for connecting!")})
+        }
+
+        resetForm(){
+            this.setState({email:"", message:""})
+        };
 
     render(){
         return(
@@ -28,7 +51,7 @@ class Contact extends Component {
                    
                     <Cell col={6} style={{border:"", paddingLeft:"20px"}}>
                     <span className="email-label">
-                        <i class="far fa-envelope" style={{fontSize:"4em"}}></i></span>
+                        <i className="far fa-envelope" style={{fontSize:"4em"}}></i></span>
                         <Form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
                             <FormGroup>
                                 <Label className="form-label" for="email">YOUR EMAIL</Label>
@@ -36,7 +59,7 @@ class Contact extends Component {
                             </FormGroup>
                             <FormGroup>
                             <Label className="form-label" for="textArea">YOUR MESSAGE</Label>
-                            <Input type="textarea" name="text" id="messageText" value={this.state.message} onChange={this.onMessageChange.bind(this)}/>
+                            <Input type="textarea" name="text" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)}/>
                             </FormGroup>
                             <Button type="submit">Send</Button>
                         </Form>
@@ -53,12 +76,7 @@ class Contact extends Component {
     }
 
     onMessageChange(event){
-        this.setState.apply({message:event.target.value})
-    }
-
-    handleSubmit(event){
-        event.preventDefault();
-        console.log(this.state)
+        this.setState({message:event.target.value})
     }
 }
 
