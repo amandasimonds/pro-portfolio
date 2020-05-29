@@ -4,8 +4,6 @@ import TooltipItem from "./UI/Tooltip"
 
 import myPic from "../assets/images/userpicture.jpg"
 
-
-
 class LandingPage extends Component {
     render(){
         return(

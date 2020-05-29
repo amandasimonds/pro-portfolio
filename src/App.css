@@ -8,8 +8,13 @@ body {
 
 .header-color {
   background: #36D1DC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:300px;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
 }
 
 .landing-grid {
@@ -79,7 +84,7 @@ background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, F
   display: flex;
   justify-content: space-between;
   padding:10px;
-  margin: 0 200px 0 200px;
+  margin: 0 100px 0 100px;
 }
 
 h3{
@@ -88,9 +93,27 @@ h3{
   font-size:.3rem;
 }
 
+.project-card{
+  width: 375px; 
+  height: 500px; 
+  margin: auto 
+}
+
+.project-card-title{
+  color: #fff; 
+  height: 400px 
+}
+
+.project-card-text{
+  height: 150px;
+  padding-bottom: 20px; 
+  padding:0;
+  margin:0;
+}
+
 .project-links{
   text-align: center;
-  padding:5px;
+  padding:0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +124,7 @@ h3{
   color: black;
   font-size: 30px;
   text-align: center;
-  padding:5px;
+  padding:0px;
 }
 
 .project-links a {
@@ -119,6 +142,40 @@ h3{
 
 .project-links i:hover {
   color: #5B86E5;
+}
+
+@media (max-width:500px){
+
+  .category-tabs{
+    display: flex;
+    flex-flow:row;
+  }
+
+  .projects-grid {
+    width:100%;
+    display: flex;
+  justify-content: center;
+  flex-flow:column;
+  padding:5px;
+  margin: 0;
+  }
+
+  .project-card{
+    width: 40%; 
+    height: 100px; 
+    margin: 10px 
+  }
+  
+  .project-card-title{
+    color: #fff; 
+    height: 25% 
+  }
+  
+  .project-card-text{
+    height: 100%;
+    padding-bottom: 0px; 
+    padding-top:0
+  }
 }
 
 .category-tabs {
