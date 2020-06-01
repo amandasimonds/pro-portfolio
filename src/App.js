@@ -9,12 +9,12 @@ function App() {
   return (
     <div className="demo-big-content">
           <Header>
-              <Link to="/resume">Resume</Link>
+              <a target="blank" href= "https://drive.google.com/file/d/1S_Cw0BkOG4CtBCsD85G56rGsSrUU9Tu3/view?usp=sharing">Resume</a>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
                   <Link to="/about">About</Link>
           </Header>
-              <div className="page-content" />
+              {/* <div className="page-content" /> */}
               <Main/>
   </div>
   );
