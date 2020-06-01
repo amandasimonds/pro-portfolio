@@ -2,7 +2,8 @@ import React from "react";
 
 const Header = (props) => (
     <div className="header-color">
-{props.children}
+        <div className="navigation">{props.children}</div>
+
     </div>
 );
 
