@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-
+import Row from 'react-bootstrap/Row';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Container, Row, Col
-  } from 'reactstrap';
+    CardTitle, CardSubtitle, Container} from 'reactstrap';
 import oceanPort from "../assets/images/oceanport.JPG"
 import streamEdpic from "../assets/images/StreamEd.JPG"
 import noteTakerPic from "../assets/images/notetaker.JPG"
@@ -16,13 +15,9 @@ class Projects extends Component {
 render(){
 
             return (
-                <Container className="projects-grid">
-                {/* <div className="projects-container"> */}
-
-                {/* <div className="projects-grid"> */}
+                <Row className="projects-grid">
                     {/* // OceanPort */}
                     <Row>
-                        <Col>
                         <Card shadow={5} className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${oceanPort}) center / cover ` }} />
                             <div className="project-links">
@@ -33,10 +28,8 @@ render(){
                         React Express app built to engage users in learning through reading, taking quizzes, and earning badges. User authentication by Passport NPM, Data managed by MySQL. 
                     </CardText>
                     </Card>
-                    </Col>
 
                     {/* // StreamEd */}
-                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${streamEdpic}) center / cover` }}>
                         </CardTitle>
@@ -48,10 +41,8 @@ render(){
                                 React App designed for online teaching and learning, streamlining all classes, assignments, and live streams into one easy-to-use app. This app is in development.
                             </CardText>
                     </Card>
-                    </Col>
 
                     {/* // NoteTaker */}
-                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title"style={{background: `url(${noteTakerPic}) left / cover` }}>
                         </CardTitle>
@@ -63,13 +54,12 @@ render(){
                                 Express Application, nicely designed for the user to create, save, and delete notes.
                             </CardText>
                     </Card>
-                    </Col>
+                    {/* </Col> */}
 
                     </Row>
 
                     <Row>
                     {/* // SpacePort */}
-                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${spacePortPic}) center / cover` }}>
                         </CardTitle>
@@ -81,10 +71,8 @@ render(){
                                 Express app, using third party API's to generate lists of books and movies about space for the user. MySQL is used to save login information and favorites. This app is in development.
                             </CardText>
                     </Card>
-                    </Col>
                 
                     {/* // Weather Dashboard */}
-                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${weatherDashPic}) left / cover` }}>
                         </CardTitle>
@@ -96,10 +84,8 @@ render(){
                                 JavaScript program showcasing the use of a weather API to display current and 5 day weather for any city in the world.
                             </CardText>
                     </Card>
-                    </Col>
 
                     {/* // Hop To It */}
-                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${hopToIt}) center / cover` }}>
                         </CardTitle>
@@ -111,13 +97,9 @@ render(){
                                 Designed for a city-visitor, this app use 3 API's including Google Geocoding to provide users a list of breweries based on the location they enter. The user can also browse marijuana strains.
                             </CardText>
                     </Card>
-                    </Col>
+                    </Row>
                     </Row>
 
-                    
-                {/* </div> */}
-                {/* </div> */}
-                </Container>
             )
 }
 }

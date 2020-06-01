@@ -107,11 +107,8 @@ body {
 /* ------- PROJECTS PAGE ------- */
 
 .projects-grid {
-  text-align: center;
-  top:100px;
-  position: relative;
-  margin: auto;
-  z-index:0;
+  flex-direction: row;
+  justify-content: center;
 }
 
 h3{
@@ -121,7 +118,7 @@ h3{
 }
 
 .project-card{
-  width: 100%;
+  width:400px;
   display: inline-block; 
   height: auto;
   margin:10px;
@@ -129,7 +126,7 @@ h3{
 
 .project-card-title{
   color: #fff; 
-  height: 400px 
+  height: 380px 
 }
 
 .project-card-text{
@@ -172,57 +169,28 @@ h3{
 }
 
 @media (max-width:500px){
-
-  .projects-container{
-    position: fixed;
-    top:100px;
-    margin: auto;
-  }
-
-  .category-tabs{
-    display: flex;
-    flex-flow:row;
-    position: fixed;
-    left:0;
-    top:20px;
-  }
-
-  .projects-grid {
-    width:100%;
-    display: flex;
-  justify-content: center;
-  flex-flow:column;
-  padding:5px;
-  margin: 0;
+  .project-card-title{
+    height: 150px 
   }
 
   .project-card{
-    width: 40%; 
-    height: 100px; 
-    margin: 10px 
-  }
-  
-  .project-card-title{
-    color: #fff; 
-    height: 25% 
-  }
-  
-  .project-card-text{
-    height: 100%;
-    padding-bottom: 0px; 
-    padding-top:0
+    width:70%;
+    display: inline-block; 
+    height: auto;
+    margin:8px auto;
+    justify-content: center;
   }
 
   .navigation{
     justify-content: space-between;
     width:100%;
+    font-size:1em;
+  }
+
+  .header-color{
+    position: fixed;
   }
 }
-
-.category-tabs {
-  background-color:rgba(255, 255, 255, 0.336);
-}
-
 
 /* ------- CONTACT PAGE ------- */
 
