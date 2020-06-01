@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
-import { Tabs, Tab, Card, CardTitle, CardText } from "react-mdl";
+import {
+    Card, CardImg, CardText, CardBody,
+    CardTitle, CardSubtitle, Container, Row, Col
+  } from 'reactstrap';
 import oceanPort from "../assets/images/oceanport.JPG"
 import streamEdpic from "../assets/images/StreamEd.JPG"
 import noteTakerPic from "../assets/images/notetaker.JPG"
@@ -10,18 +13,17 @@ import spacePortPic from "../assets/images/spaceport.JPG"
 import weatherDashPic from "../assets/images/weather.JPG"
 
 class Projects extends Component {
+render(){
 
-    constructor(props) {
-        super(props);
-        this.state = { activeTab: 0 };
-    }
-
-    toggleCategories() {
-        if (this.state.activeTab === 0) {
             return (
-                <div className="projects-grid">
+                <Container className="projects-grid">
+                {/* <div className="projects-container"> */}
+
+                {/* <div className="projects-grid"> */}
                     {/* // OceanPort */}
-                    <Card shadow={5} className="project-card">
+                    <Row>
+                        <Col>
+                        <Card shadow={5} className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${oceanPort}) center / cover ` }} />
                             <div className="project-links">
                             <a href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank"><strong>OceanPort</strong></a>  
@@ -30,10 +32,11 @@ class Projects extends Component {
                         <CardText className="project-card-text">
                         React Express app built to engage users in learning through reading, taking quizzes, and earning badges. User authentication by Passport NPM, Data managed by MySQL. 
                     </CardText>
-
                     </Card>
+                    </Col>
 
                     {/* // StreamEd */}
+                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${streamEdpic}) center / cover` }}>
                         </CardTitle>
@@ -45,12 +48,10 @@ class Projects extends Component {
                                 React App designed for online teaching and learning, streamlining all classes, assignments, and live streams into one easy-to-use app. This app is in development.
                             </CardText>
                     </Card>
-                </div>
-            )
-        } else if (this.state.activeTab === 1) {
-            return (
-                <div className="projects-grid">
+                    </Col>
+
                     {/* // NoteTaker */}
+                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title"style={{background: `url(${noteTakerPic}) left / cover` }}>
                         </CardTitle>
@@ -62,8 +63,13 @@ class Projects extends Component {
                                 Express Application, nicely designed for the user to create, save, and delete notes.
                             </CardText>
                     </Card>
+                    </Col>
 
+                    </Row>
+
+                    <Row>
                     {/* // SpacePort */}
+                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${spacePortPic}) center / cover` }}>
                         </CardTitle>
@@ -75,12 +81,10 @@ class Projects extends Component {
                                 Express app, using third party API's to generate lists of books and movies about space for the user. MySQL is used to save login information and favorites. This app is in development.
                             </CardText>
                     </Card>
-                </div>
-            )
-        } else if (this.state.activeTab === 2) {
-            return (
-                <div className="projects-grid">
+                    </Col>
+                
                     {/* // Weather Dashboard */}
+                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${weatherDashPic}) left / cover` }}>
                         </CardTitle>
@@ -92,8 +96,10 @@ class Projects extends Component {
                                 JavaScript program showcasing the use of a weather API to display current and 5 day weather for any city in the world.
                             </CardText>
                     </Card>
+                    </Col>
 
                     {/* // Hop To It */}
+                    <Col>
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${hopToIt}) center / cover` }}>
                         </CardTitle>
@@ -105,57 +111,15 @@ class Projects extends Component {
                                 Designed for a city-visitor, this app use 3 API's including Google Geocoding to provide users a list of breweries based on the location they enter. The user can also browse marijuana strains.
                             </CardText>
                     </Card>
-                </div>
+                    </Col>
+                    </Row>
+
+                    
+                {/* </div> */}
+                {/* </div> */}
+                </Container>
             )
-        } else if (this.state.activeTab === 3) {
-            return (
-                <div className="projects-grid">
-                    {/* // Burger Logger */}
-                    <Card shadow={5} className="project-card">
-                        <CardTitle className="project-card-title" style={{background: `url(${buggerLoggerPic}) left / cover` }}>
-                        </CardTitle>
-                        <div className="project-links">
-                            <a href="https://supertastyburgerapp.herokuapp.com/" rel="noopener noreferrer" target="_blank"><strong>Burger Logger</strong></a>  
-                            <a href="https://github.com/amandasimonds/burger-logger" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
-                            </div>
-                            <CardText className="project-card-text">
-                                Express app built with Handlebars and MySQL designed to simulate burger take out.
-                            </CardText>
-                    </Card>
-
-                    {/* OceanPort */}
-                    <Card shadow={5} className="project-card">
-                        <CardTitle className="project-card-title" style={{background: `url(${oceanPort}) center / cover `}} />
-                        <div className="project-links">
-                            <a href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank"><strong>OceanPort</strong></a>  
-                            <a href="https://github.com/amandasimonds/ocean-port" rel="noopener noreferrer" target="_blank"> <i className="fa fa-github-square" aria-hidden="true"/></a>
-                            </div>
-                            <CardText className="project-card-text">
-                            React Express app built to engage users in learning through reading, taking quizzes, and earning badges. User authentication by Passport NPM, Data managed by MySQL. 
-                            </CardText>
-                    </Card>
-                </div>
-            )
-        }
-    }
-
-
-    render() {
-        return (
-            <div className="projects-container">
-                <Tabs className="category-tabs" activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab>React</Tab>
-                    <Tab>Express</Tab>
-                    <Tab>JavaScript</Tab>
-                    <Tab>MySQL</Tab>
-                </Tabs>
-
-                <div>
-                    {this.toggleCategories()}
-                </div>
-            </div>
-        )
-    }
+}
 }
 
 export default Projects;

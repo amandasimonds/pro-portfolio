@@ -9,11 +9,16 @@ body {
 /* ------- HEADER / NAVIGATION ------- */
 
 .header-color {
-  height:60px;
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:70px;
   position:fixed;
-  top:10px;
+  padding:10px;
   left:0;
   width:100%;
+  z-index: 999;
+  border-bottom: 1px solid #5B86E5;
 }
 
 .navigation{
@@ -101,17 +106,12 @@ body {
 
 /* ------- PROJECTS PAGE ------- */
 
-.projects-container{
-  position: relative;
-  top:100px;
-  margin: auto;
-}
-
 .projects-grid {
-  display: flex;
-  justify-content: space-between;
-  padding:10px;
-  margin: 0 100px 0 100px;
+  text-align: center;
+  top:100px;
+  position: relative;
+  margin: auto;
+  z-index:0;
 }
 
 h3{
@@ -121,9 +121,10 @@ h3{
 }
 
 .project-card{
-  width: 375px; 
-  height: 500px; 
-  margin: auto 
+  width: 100%;
+  display: inline-block; 
+  height: auto;
+  margin:10px;
 }
 
 .project-card-title{
@@ -133,9 +134,8 @@ h3{
 
 .project-card-text{
   height: 150px;
-  padding-bottom: 20px; 
-  padding:0;
-  margin:0;
+  padding:10px;
+  text-align:left;
 }
 
 .project-links{
