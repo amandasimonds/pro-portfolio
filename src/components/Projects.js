@@ -5,9 +5,8 @@ import {
     CardTitle, CardSubtitle, Container} from 'reactstrap';
 import oceanPort from "../assets/images/oceanport.JPG"
 import streamEdpic from "../assets/images/StreamEd.JPG"
-import noteTakerPic from "../assets/images/notetaker.JPG"
-import buggerLoggerPic from "../assets/images/burgerlogger.JPG"
-import hopToIt from "../assets/images/hoptoit.JPG"
+import noteTakerPic from "../assets/images/notetaker.JPG";
+import hopToIt from "../assets/images/hoptoit.JPG";
 import spacePortPic from "../assets/images/spaceport.JPG"
 import weatherDashPic from "../assets/images/weather.JPG"
 
@@ -15,9 +14,9 @@ class Projects extends Component {
 render(){
 
             return (
-                <Row className="projects-grid">
+                <Row className="projects-grid noMargin">
                     {/* // OceanPort */}
-                    <Row>
+                    <Row className="noMargin">
                         <Card shadow={5} className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${oceanPort}) center / cover ` }} />
                             <div className="project-links">
@@ -58,7 +57,7 @@ render(){
 
                     </Row>
 
-                    <Row>
+                    <Row className="noMargin">
                     {/* // SpacePort */}
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${spacePortPic}) center / cover` }}>

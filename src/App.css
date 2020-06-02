@@ -130,14 +130,27 @@ body {
 /* ------- PROJECTS PAGE ------- */
 
 .projects-grid {
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: center;
   top:80px;
   position: relative;
   width: 100%;
   text-align: center;
   justify-items: center;
+  align-items: center;
   margin: auto;
+}
+
+div.noPadding {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.noMargin {
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  justify-content: center;
 }
 
 h3{
@@ -155,7 +168,7 @@ h3{
 
 .project-card-title{
   color: #fff; 
-  height: 380px 
+  height: 280px 
 }
 
 .project-card-text{
