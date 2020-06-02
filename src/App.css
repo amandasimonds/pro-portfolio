@@ -21,10 +21,31 @@ body {
   border-bottom: 1px solid #5B86E5;
 }
 
+.footer {
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height:auto;
+  position:fixed;
+  padding:5px 40px 5px 5px;
+  text-align: right;
+  left:0;
+  bottom:0;
+  width:100%;
+  border-bottom: 1px solid #5B86E5;
+  margin-top:200px;
+  color: white;
+  font-size: 10px;
+}
+
+.box{
+  height:200px;
+}
+
 .navigation{
   display:flex;
   justify-content: space-between;
-  width:40%;
+  width:50%;
   margin: auto;
   padding: 10px;
   font-size: 18px;
@@ -39,8 +60,8 @@ body {
 
 .navigation a:hover{
   text-decoration: none;
+  color: rgb(44, 65, 110);
 }
-
 
 /* ------- LANDING PAGE ------- */
 
@@ -49,7 +70,7 @@ body {
   background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position:relative;
-  top:100px;
+  top:70px;
   width: 100%;
   height: 100%;
   display:flex;
@@ -79,12 +100,12 @@ body {
 }
 
 .banner-text h1 {
-  font-size: 30px;
+  font-size: 27px;
   color:white;
 }
 
 .banner-text p {
-  font-size: 20px;
+  font-size: 19px;
   color: white;
   padding:5px;
 }
@@ -99,8 +120,8 @@ body {
 
 .social-links i {
   color: white;
-  font-size: 4em;
-  padding: 8px;
+  font-size: 3.5em;
+  padding: 7px;
 }
 
 .social-links i:hover {
@@ -113,6 +134,12 @@ body {
 .projects-grid {
   flex-direction: row;
   justify-content: center;
+  top:80px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  justify-items: center;
+  margin: auto;
 }
 
 h3{
@@ -122,7 +149,7 @@ h3{
 }
 
 .project-card{
-  width:400px;
+  width:30%;
   display: inline-block; 
   height: auto;
   margin:10px;
@@ -188,11 +215,21 @@ h3{
   .navigation{
     justify-content: space-between;
     width:100%;
-    font-size:1em;
+    font-size:0.8em;
   }
 
   .header-color{
     position: fixed;
+  }
+
+  .about-me-container {
+    padding: 2px;
+    width:95%;
+    margin:0px;
+  }
+
+  .banner-text{
+    width:90%;
   }
 }
 
@@ -242,3 +279,21 @@ h3{
   color: rgb(55, 50, 104);
 }
 
+
+/* ------- ABOUT ME ------- */
+
+.about-me-container {
+  margin: auto;
+  position: relative;;
+  padding: 5px;
+  width:75%;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.about-me-container p {
+  color:rgb(55, 50, 104);
+  font-size: 1.1em;
+  line-height:1.2em
+}
