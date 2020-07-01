@@ -13,7 +13,7 @@ function App() {
           <Link to="/">About</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact</Link>
-                  <a target="blank" href= "https://drive.google.com/file/d/12Mzv6uuDaghskcZORc_GorDhNMwS3wAo/view?usp=sharing">Resume</a>
+                  <a target="blank" href= "https://drive.google.com/file/d/1TzsjHk42k5M-9-tpFvI2MUhBcuOH2Fd5/view?usp=sharing">Resume</a>
                   <a href="https://amandadevs.com">Blog</a>
                   
           </Header>
