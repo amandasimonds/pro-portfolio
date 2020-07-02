@@ -17,6 +17,8 @@ render(){
                 <Row className="projects-grid noMargin">
                     {/* // OceanPort */}
                     <Row className="noMargin">
+
+                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                         <Card shadow={5} className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${oceanPort}) center / cover ` }} />
                             <div className="project-links">
@@ -27,8 +29,10 @@ render(){
                         React Express app built to engage users in learning through reading, taking quizzes, and earning badges. User authentication by Passport NPM, Data managed by MySQL. 
                     </CardText>
                     </Card>
+                    </a>
 
                     {/* // StreamEd */}
+                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${streamEdpic}) center / cover` }}>
                         </CardTitle>
@@ -40,8 +44,10 @@ render(){
                                 React App designed for online teaching and learning, streamlining all classes, assignments, and live streams into one easy-to-use app. This app is in development.
                             </CardText>
                     </Card>
+                    </a>
 
                     {/* // NoteTaker */}
+                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title"style={{background: `url(${noteTakerPic}) left / cover` }}>
                         </CardTitle>
@@ -53,12 +59,14 @@ render(){
                                 Express Application, nicely designed for the user to create, save, and delete notes.
                             </CardText>
                     </Card>
+                    </a>
                     {/* </Col> */}
 
                     </Row>
 
                     <Row className="noMargin">
                     {/* // SpacePort */}
+                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${spacePortPic}) center / cover` }}>
                         </CardTitle>
@@ -70,8 +78,10 @@ render(){
                                 Express app, using third party API's to generate lists of books and movies about space for the user. MySQL is used to save login information and favorites. This app is in development.
                             </CardText>
                     </Card>
-                
+                    </a>
+
                     {/* // Weather Dashboard */}
+                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${weatherDashPic}) left / cover` }}>
                         </CardTitle>
@@ -83,8 +93,10 @@ render(){
                                 JavaScript program showcasing the use of a weather API to display current and 5 day weather for any city in the world.
                             </CardText>
                     </Card>
+                    </a>
 
                     {/* // Hop To It */}
+                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${hopToIt}) center / cover` }}>
                         </CardTitle>
@@ -96,6 +108,7 @@ render(){
                                 Designed for a city-visitor, this app use 3 API's including Google Geocoding to provide users a list of breweries based on the location they enter. The user can also browse marijuana strains.
                             </CardText>
                     </Card>
+                    </a>
                     </Row>
                     </Row>
 
