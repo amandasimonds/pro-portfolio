@@ -217,14 +217,15 @@ h3{
 }
 
 .project-links a:hover,
-.project-card-title:hover,
-.project-links:hover,
+.project-card-title a:hover,
+.project-links a:hover,
 .project-links i:hover, 
 a:hover, 
-.project-card-text:hover, 
-.card-text:hover,
+.project-card-text a:hover, 
+.card-text a:hover,
 p:hover 
-p.project-card-text.card-text:hover{
+p.project-card-text.card-text:hover,
+a.project-card-link p:hover{
   color: #5B86E5;
   text-decoration: none;
 }

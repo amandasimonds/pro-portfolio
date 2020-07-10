@@ -32,7 +32,7 @@ render(){
                     </a>
 
                     {/* // StreamEd */}
-                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                    <a class="project-card-link" href="https://amandasimonds.github.io/stream-ed/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${streamEdpic}) center / cover` }}>
                         </CardTitle>
@@ -47,7 +47,7 @@ render(){
                     </a>
 
                     {/* // NoteTaker */}
-                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                    <a class="project-card-link" href="https://notetaker-amazing.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title"style={{background: `url(${noteTakerPic}) left / cover` }}>
                         </CardTitle>
@@ -66,7 +66,7 @@ render(){
 
                     <Row className="noMargin">
                     {/* // SpacePort */}
-                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                    <a class="project-card-link" href="https://spaceport2020.herokuapp.com/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${spacePortPic}) center / cover` }}>
                         </CardTitle>
@@ -81,7 +81,7 @@ render(){
                     </a>
 
                     {/* // Weather Dashboard */}
-                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                    <a class="project-card-link" href="https://amandasimonds.github.io/WeatherDashboard/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${weatherDashPic}) left / cover` }}>
                         </CardTitle>
@@ -96,7 +96,7 @@ render(){
                     </a>
 
                     {/* // Hop To It */}
-                    <a class="project-card-link" href="https://oceanport.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                    <a class="project-card-link" href="https://kellyjones-jpg.github.io/Hop-To-It/" rel="noopener noreferrer" target="_blank">
                     <Card shadow={5}  className="project-card">
                         <CardTitle className="project-card-title" style={{background: `url(${hopToIt}) center / cover` }}>
                         </CardTitle>
