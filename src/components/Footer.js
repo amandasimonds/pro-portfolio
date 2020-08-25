@@ -18,7 +18,7 @@ const Footer = (props) => (
                                 <TooltipItem tooltipTarget="github" tooltipText="GitHub"/>
 
                                 {/* Resume */}
-                                <a href="https://drive.google.com/file/d/1TzsjHk42k5M-9-tpFvI2MUhBcuOH2Fd5/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                                <a href="https://drive.google.com/file/d/18PEYHtakHwRqylk38KHLWMdejdOh9Y-r/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                                     <i className="far fa-file-pdf" id="resume" aria-hidden="true"/>
                                 </a>
                                 <TooltipItem tooltipTarget="resume" tooltipText="Resume"/>

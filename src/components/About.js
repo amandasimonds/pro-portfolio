@@ -37,7 +37,7 @@ class About extends Component {
                                     <TooltipItem tooltipTarget="github" tooltipText="GitHub" />
 
                                     {/* Resume */}
-                                    <a href="https://drive.google.com/file/d/1S_Cw0BkOG4CtBCsD85G56rGsSrUU9Tu3/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+                                    <a href="https://drive.google.com/file/d/18PEYHtakHwRqylk38KHLWMdejdOh9Y-r/view?usp=sharing" rel="noopener noreferrer" target="_blank">
                                         <i className="far fa-file-pdf" id="resume" aria-hidden="true" />
                                     </a>
                                     <TooltipItem tooltipTarget="resume" tooltipText="Resume" />
